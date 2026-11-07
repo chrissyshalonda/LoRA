@@ -1,0 +1,67 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights: 100% 338/338 [00:00<00:00, 6169.97it/s]
+trainable params: 18,464,768 || all params: 1,562,179,072 || trainable%: 1.1820
+{'loss': '2.925', 'grad_norm': '0.5825', 'learning_rate': '0.0001822', 'epoch': '0.3333'}
+{'loss': '2.69', 'grad_norm': '0.4337', 'learning_rate': '0.00016', 'epoch': '0.6667'}
+{'loss': '2.696', 'grad_norm': '0.6036', 'learning_rate': '0.0001378', 'epoch': '1'}
+{'loss': '2.52', 'grad_norm': '0.7716', 'learning_rate': '0.0001156', 'epoch': '1.333'}
+{'loss': '2.398', 'grad_norm': '0.6374', 'learning_rate': '9.333e-05', 'epoch': '1.667'}
+{'loss': '2.485', 'grad_norm': '0.6696', 'learning_rate': '7.111e-05', 'epoch': '2'}
+{'loss': '2.374', 'grad_norm': '1', 'learning_rate': '4.889e-05', 'epoch': '2.333'}
+{'loss': '2.313', 'grad_norm': '0.9116', 'learning_rate': '2.667e-05', 'epoch': '2.667'}
+{'loss': '2.243', 'grad_norm': '0.7846', 'learning_rate': '4.444e-06', 'epoch': '3'}
+{'train_runtime': '820.3', 'train_samples_per_second': '0.439', 'train_steps_per_second': '0.055', 'train_loss': '2.516', 'epoch': '3'}
+100% 45/45 [13:40<00:00, 18.23s/it]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+адаптер сохранён в output/harms
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights: 100% 338/338 [00:00<00:00, 4031.76it/s]
+trainable params: 18,464,768 || all params: 1,562,179,072 || trainable%: 1.1820
+{'loss': '2.343', 'grad_norm': '0.3797', 'learning_rate': '0.0001963', 'epoch': '0.07018'}
+{'loss': '2.275', 'grad_norm': '0.3896', 'learning_rate': '0.0001917', 'epoch': '0.1404'}
+{'loss': '2.223', 'grad_norm': '0.383', 'learning_rate': '0.000187', 'epoch': '0.2105'}
+{'loss': '2.185', 'grad_norm': '0.3576', 'learning_rate': '0.0001824', 'epoch': '0.2807'}
+{'loss': '2.129', 'grad_norm': '0.3631', 'learning_rate': '0.0001778', 'epoch': '0.3509'}
+{'loss': '2.158', 'grad_norm': '0.3574', 'learning_rate': '0.0001731', 'epoch': '0.4211'}
+ 14% 30/216 [10:22<1:03:33, 20.50s/it][transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (149525 > 131072). Running this sequence through the model will result in indexing errors
+{'loss': '2.127', 'grad_norm': '0.4047', 'learning_rate': '0.0001685', 'epoch': '0.4912'}
+{'loss': '2.147', 'grad_norm': '0.3989', 'learning_rate': '0.0001639', 'epoch': '0.5614'}
+{'loss': '2.114', 'grad_norm': '0.4005', 'learning_rate': '0.0001593', 'epoch': '0.6316'}
+{'loss': '2.167', 'grad_norm': '0.3967', 'learning_rate': '0.0001546', 'epoch': '0.7018'}
+{'loss': '2.126', 'grad_norm': '0.4149', 'learning_rate': '0.00015', 'epoch': '0.7719'}
+{'loss': '2.13', 'grad_norm': '0.4155', 'learning_rate': '0.0001454', 'epoch': '0.8421'}
+{'loss': '2.069', 'grad_norm': '0.4398', 'learning_rate': '0.0001407', 'epoch': '0.9123'}
+{'loss': '2.106', 'grad_norm': '0.4097', 'learning_rate': '0.0001361', 'epoch': '0.9825'}
+{'loss': '1.975', 'grad_norm': '0.3951', 'learning_rate': '0.0001315', 'epoch': '1.042'}
+{'loss': '2.001', 'grad_norm': '0.4386', 'learning_rate': '0.0001269', 'epoch': '1.112'}
+{'loss': '2.011', 'grad_norm': '0.4785', 'learning_rate': '0.0001222', 'epoch': '1.182'}
+{'loss': '1.867', 'grad_norm': '0.5126', 'learning_rate': '0.0001176', 'epoch': '1.253'}
+{'loss': '2.015', 'grad_norm': '0.5238', 'learning_rate': '0.000113', 'epoch': '1.323'}
+{'loss': '1.968', 'grad_norm': '0.534', 'learning_rate': '0.0001083', 'epoch': '1.393'}
+{'loss': '1.983', 'grad_norm': '0.5642', 'learning_rate': '0.0001037', 'epoch': '1.463'}
+{'loss': '1.968', 'grad_norm': '0.5667', 'learning_rate': '9.907e-05', 'epoch': '1.533'}
+{'loss': '1.987', 'grad_norm': '0.6153', 'learning_rate': '9.444e-05', 'epoch': '1.604'}
+{'loss': '1.971', 'grad_norm': '0.5983', 'learning_rate': '8.981e-05', 'epoch': '1.674'}
+{'loss': '1.981', 'grad_norm': '0.6207', 'learning_rate': '8.519e-05', 'epoch': '1.744'}
+{'loss': '2.016', 'grad_norm': '0.6101', 'learning_rate': '8.056e-05', 'epoch': '1.814'}
+{'loss': '1.979', 'grad_norm': '0.641', 'learning_rate': '7.593e-05', 'epoch': '1.884'}
+{'loss': '2.025', 'grad_norm': '0.6478', 'learning_rate': '7.13e-05', 'epoch': '1.954'}
+{'loss': '1.942', 'grad_norm': '0.5975', 'learning_rate': '6.667e-05', 'epoch': '2.014'}
+{'loss': '1.84', 'grad_norm': '0.6142', 'learning_rate': '6.204e-05', 'epoch': '2.084'}
+{'loss': '1.833', 'grad_norm': '0.6611', 'learning_rate': '5.741e-05', 'epoch': '2.154'}
+{'loss': '1.859', 'grad_norm': '0.7029', 'learning_rate': '5.278e-05', 'epoch': '2.225'}
+{'loss': '1.781', 'grad_norm': '0.7532', 'learning_rate': '4.815e-05', 'epoch': '2.295'}
+{'loss': '1.832', 'grad_norm': '0.6966', 'learning_rate': '4.352e-05', 'epoch': '2.365'}
+{'loss': '1.875', 'grad_norm': '0.6931', 'learning_rate': '3.889e-05', 'epoch': '2.435'}
+{'loss': '1.808', 'grad_norm': '0.7111', 'learning_rate': '3.426e-05', 'epoch': '2.505'}
+{'loss': '1.829', 'grad_norm': '0.7514', 'learning_rate': '2.963e-05', 'epoch': '2.575'}
+{'loss': '1.862', 'grad_norm': '0.7432', 'learning_rate': '2.5e-05', 'epoch': '2.646'}
+{'loss': '1.86', 'grad_norm': '0.7691', 'learning_rate': '2.037e-05', 'epoch': '2.716'}
+{'loss': '1.831', 'grad_norm': '0.7552', 'learning_rate': '1.574e-05', 'epoch': '2.786'}
+{'loss': '1.857', 'grad_norm': '0.7969', 'learning_rate': '1.111e-05', 'epoch': '2.856'}
+{'loss': '1.839', 'grad_norm': '0.767', 'learning_rate': '6.481e-06', 'epoch': '2.926'}
+{'loss': '1.838', 'grad_norm': '0.7568', 'learning_rate': '1.852e-06', 'epoch': '2.996'}
+{'train_runtime': '4429', 'train_samples_per_second': '0.386', 'train_steps_per_second': '0.049', 'train_loss': '1.991', 'epoch': '3'}
+100% 216/216 [1:13:49<00:00, 20.51s/it]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+адаптер сохранён в output/chekhov
